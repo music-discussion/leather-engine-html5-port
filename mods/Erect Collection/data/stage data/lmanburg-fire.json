@@ -1,0 +1,59 @@
+{
+    "character_Positions":[
+        [1150, 850],
+        [400, 850],
+        [725, 750]
+    ],
+    "camera_Zoom": 0.9,
+    "objects": [
+        {
+            "position":[-300, -100],
+            "scroll_Factor": [0, 0],
+            "scale": 0.7,
+            "antialiased": true,
+            "file_Name": "shit-sky-became-the-doom-slayer-run-everyone-run",
+            "is_Animated": false
+        },
+        {
+            "position":[-300, -100],
+            "scroll_Factor": [0.25, 0.25],
+            "scale": 0.7,
+            "antialiased": true,
+            "file_Name": "whatever-the-heck-this-is-taki-swiss-cheese-edition",
+            "is_Animated": false
+        },
+        {
+            "position":[-300, -100],
+            "scroll_Factor": [0.3, 0.3],
+            "scale": 0.7,
+            "antialiased": true,
+            "file_Name": "coolflagsarefuckingdead",
+            "is_Animated": false
+        },
+        {
+            "position":[-150, 485],
+            "scroll_Factor": [0.3, 0.3],
+            "scale": 2.8,
+            "antialiased": true,
+            "file_Name": "lava",
+            "is_Animated": true,
+            "start_Animation": "idle",
+            "animations": [
+                {
+                    "name": "idle",
+                    "animation_name": "lava",
+                    "fps": 10,
+                    "looped": true
+                }
+            ]
+        },
+        {
+            "position":[-150, 600],
+            "scroll_Factor": [0.9, 0.9],
+            "scale": 1.1,
+            "antialiased": true,
+            "file_Name": "platform2",
+            "is_Animated": false
+        }
+    ]
+}

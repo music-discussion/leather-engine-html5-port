@@ -1,0 +1,1001 @@
+{
+    "type": "dialogue",
+    "dialogueBox": "speech_bubble_talking",
+    "dialogueBoxFlips": true,
+    "dialogueMusic": "MegaTree 9 - Ending",
+    "cutsceneAfter": "credits",
+    "dialogueSections": [
+        {
+            "side": "left",
+            "showOtherPortrait": false,
+            "leftPortrait": {
+                "sprite": "ronshaggy",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "bf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "..Dang. You got us, again.",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            },
+            "box_FPS": 24,
+            "open_Box": true,
+            "box_Antialiased": true,
+            "box_Anim": "speech bubble normal0",
+            "box_Open": "Speech Bubble Normal Open0"
+        },
+        {
+            "side": "right",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "ronshaggy",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "gf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "Haha, you guys are so funny..",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            },
+            "box_FPS": 24,
+            "open_Box": true,
+            "box_Antialiased": true,
+            "box_Anim": "speech bubble normal0",
+            "box_Open": "Speech Bubble Normal Open0"
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "ronshaggyshocked",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "gf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "??",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            },
+            "box_FPS": 24,
+            "open_Box": true,
+            "box_Antialiased": true,
+            "box_Anim": "speech bubble normal0",
+            "box_Open": "Speech Bubble Normal Open0"
+        },
+        {
+            "side": "right",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "ronshaggyshocked",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "gf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "You guys still haven't figured out why you haven't won a single time..",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            },
+            "box_FPS": 24,
+            "open_Box": true,
+            "box_Antialiased": true,
+            "box_Anim": "speech bubble normal0",
+            "box_Open": "Speech Bubble Normal Open0"
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spurkmattalt",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "gf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "Why is that? How have we lost every single time we've tried??",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            },
+            "box_FPS": 24,
+            "open_Box": true,
+            "box_Antialiased": true,
+            "box_Anim": "speech bubble normal0",
+            "box_Open": "Speech Bubble Normal Open0"
+        },
+        {
+            "side": "right",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spurkmattalt",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "gf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "You are on the left side. The right side always has the last play.",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            },
+            "box_FPS": 24,
+            "open_Box": true,
+            "box_Antialiased": true,
+            "box_Anim": "speech bubble normal0",
+            "box_Open": "Speech Bubble Normal Open0"
+        },
+        {
+            "side": "right",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spurkmattalt",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "gf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "So that means, none of you guys ever win.",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            },
+            "box_FPS": 24,
+            "open_Box": true,
+            "box_Antialiased": true,
+            "box_Anim": "speech bubble normal0",
+            "box_Open": "Speech Bubble Normal Open0"
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "ronshaggyshocked",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "gf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "!!",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            },
+            "box_FPS": 24,
+            "open_Box": true,
+            "box_Antialiased": true,
+            "box_Anim": "speech bubble normal0",
+            "box_Open": "Speech Bubble Normal Open0"
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "madspurkshaggy",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "gf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "This dumb game has been rigged from the start! No wonder why we've lost all of those times!",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            },
+            "box_FPS": 24,
+            "open_Box": true,
+            "box_Antialiased": true,
+            "box_Anim": "speech bubble normal0",
+            "box_Open": "Speech Bubble Normal Open0"
+        },
+        {
+            "side": "right",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "madspurkshaggy",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "gf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "yup.",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            },
+            "box_FPS": 24,
+            "open_Box": true,
+            "box_Antialiased": true,
+            "box_Anim": "speech bubble normal0",
+            "box_Open": "Speech Bubble Normal Open0"
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "ronmatt",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "gf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "wait.",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            },
+            "box_FPS": 24,
+            "open_Box": true,
+            "box_Antialiased": true,
+            "box_Anim": "speech bubble normal0",
+            "box_Open": "Speech Bubble Normal Open0"
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "ronmatt",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "gf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "what if both of our sides played at the same time?",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            },
+            "box_FPS": 24,
+            "open_Box": true,
+            "box_Antialiased": true,
+            "box_Anim": "speech bubble normal0",
+            "box_Open": "Speech Bubble Normal Open0"
+        },
+        {
+            "side": "right",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "ronmatt",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "gf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "Well you see.. It wouldn't be fun for the BFs. Since they like to repeat everything the opponent says, or alter it, there would be mass confusion.",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            },
+            "box_FPS": 24,
+            "open_Box": true,
+            "box_Antialiased": true,
+            "box_Anim": "speech bubble normal0",
+            "box_Open": "Speech Bubble Normal Open0"
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "ronmatt",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "gf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "what if, we were given a chance and move to the right side?",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            },
+            "box_FPS": 24,
+            "open_Box": true,
+            "box_Antialiased": true,
+            "box_Anim": "speech bubble normal0",
+            "box_Open": "Speech Bubble Normal Open0"
+        },
+        {
+            "side": "right",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "ronmatt",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "gf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "Now that wouldn't be fun for the BFs since they would be on the side that loses-",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            },
+            "box_FPS": 24,
+            "open_Box": true,
+            "box_Antialiased": true,
+            "box_Anim": "speech bubble normal0",
+            "box_Open": "Speech Bubble Normal Open0"
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "ronshaggy",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "gf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "Haha! Now you've just unleashed why this game is so unbalanced!",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            },
+            "box_FPS": 24,
+            "open_Box": true,
+            "box_Antialiased": true,
+            "box_Anim": "speech bubble normal0",
+            "box_Open": "Speech Bubble Normal Open0"
+        },
+        {
+            "side": "right",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "ronshaggy",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "gf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "eh-.. okay. I need to say something to you closer.",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            },
+            "box_FPS": 24,
+            "open_Box": true,
+            "box_Antialiased": true,
+            "box_Anim": "speech bubble normal0",
+            "box_Open": "Speech Bubble Normal Open0"
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "ronshaggyshocked",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "gf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "okay?",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            },
+            "box_FPS": 24,
+            "open_Box": true,
+            "box_Antialiased": true,
+            "box_Anim": "speech bubble normal0",
+            "box_Open": "Speech Bubble Normal Open0"
+        },
+        {
+            "side": "right",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "ronshaggyshocked",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "gf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "(You see, I was manipulating them to being with me. I don't want to spend time trying to be with them, so I try to get them to rap battle and make them always win to be with me.)",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            },
+            "box_FPS": 24,
+            "open_Box": true,
+            "box_Antialiased": true,
+            "box_Anim": "speech bubble normal0",
+            "box_Open": "Speech Bubble Normal Open0"
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "ronshaggyshocked",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "gf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "woah. That's totally not cool.",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            },
+            "box_FPS": 24,
+            "open_Box": true,
+            "box_Antialiased": true,
+            "box_Anim": "speech bubble normal0",
+            "box_Open": "Speech Bubble Normal Open0"
+        },
+        {
+            "side": "right",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "ronshaggyshocked",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "gf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "I know, but it works. So who would bother?",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            },
+            "box_FPS": 24,
+            "open_Box": true,
+            "box_Antialiased": true,
+            "box_Anim": "speech bubble normal0",
+            "box_Open": "Speech Bubble Normal Open0"
+        },
+        {
+            "side": "right",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "ronshaggyshocked",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "gf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "See y'all~",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            },
+            "box_FPS": 24,
+            "open_Box": true,
+            "box_Antialiased": true,
+            "box_Anim": "speech bubble normal0",
+            "box_Open": "Speech Bubble Normal Open0"
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": false,
+            "leftPortrait": {
+                "sprite": "ronshaggy",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "gf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "You know what BFs? I think I misjudged you.",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            },
+            "box_FPS": 24,
+            "open_Box": true,
+            "box_Antialiased": true,
+            "box_Anim": "speech bubble normal0",
+            "box_Open": "Speech Bubble Normal Open0"
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": false,
+            "leftPortrait": {
+                "sprite": "ronshaggy",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "gf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "Good game, everyone!",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            },
+            "box_FPS": 24,
+            "open_Box": true,
+            "box_Antialiased": true,
+            "box_Anim": "speech bubble normal0",
+            "box_Open": "Speech Bubble Normal Open0"
+        },
+        {
+            "side": "right",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "ronshaggy",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "bf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "Beep!",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            },
+            "box_FPS": 24,
+            "open_Box": true,
+            "box_Antialiased": true,
+            "box_Anim": "speech bubble normal0",
+            "box_Open": "Speech Bubble Normal Open0"
+        },
+        {
+            "side": "right",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "ronshaggy",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "bsidebf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "Bop!",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            },
+            "box_FPS": 24,
+            "open_Box": true,
+            "box_Antialiased": true,
+            "box_Anim": "speech bubble normal0",
+            "box_Open": "Speech Bubble Normal Open0"
+        },
+        {
+            "side": "right",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "ronshaggy",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "neobf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "Bap!!",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            },
+            "box_FPS": 24,
+            "open_Box": true,
+            "box_Antialiased": true,
+            "box_Anim": "speech bubble normal0",
+            "box_Open": "Speech Bubble Normal Open0"
+        },
+        {
+            "side": "right",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "ronshaggy",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "player",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "I feel sick trying to hit all those arrows. uugghh...",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            },
+            "box_FPS": 24,
+            "open_Box": true,
+            "box_Antialiased": true,
+            "box_Anim": "speech bubble normal0",
+            "box_Open": "Speech Bubble Normal Open0"
+        },
+        {
+            "side": "right",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "ronshaggy",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "flbf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "Bap!",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            },
+            "box_FPS": 24,
+            "open_Box": true,
+            "box_Antialiased": true,
+            "box_Anim": "speech bubble normal0",
+            "box_Open": "Speech Bubble Normal Open0"
+        },
+        {
+            "side": "right",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "ronshaggy",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "rsbf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "Beep!",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            },
+            "box_FPS": 24,
+            "open_Box": true,
+            "box_Antialiased": true,
+            "box_Anim": "speech bubble normal0",
+            "box_Open": "Speech Bubble Normal Open0"
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "ronshaggy",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "bf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "Hope y'all had fun, Bye!",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            },
+            "box_FPS": 24,
+            "open_Box": true,
+            "box_Antialiased": true,
+            "box_Anim": "speech bubble normal0",
+            "box_Open": "Speech Bubble Normal Open0"
+        }
+    ]
+}

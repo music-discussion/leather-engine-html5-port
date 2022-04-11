@@ -1,0 +1,22 @@
+{
+    "cameraOffset": [-150, -200],
+    "barColor": [0, 125, 0],
+    "characters": [
+        {
+            "name": "NCShaggy",
+            "positionOffset": [0,20]
+        },
+        {
+            "name": "NCMatt",
+            "positionOffset": [-200,0]
+        },
+        {
+            "name": "NCZardy",
+            "positionOffset": [-500,0]
+        }, 
+        {
+            "name": "NCTricky",
+            "positionOffset": [-400,0]
+        }
+    ]
+}

@@ -1,0 +1,159 @@
+{
+    "type": "dialogue",
+    "dialogueBox": "speech_bubble_talking",
+    "cutsceneAfter": "realization",
+    "dialogueBoxFlips": true,
+    "dialogueMusic": "",
+    "dialogueSections": [
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "madspurkshaggy",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "bf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "...",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            },
+            "box_FPS": 24,
+            "open_Box": true,
+            "box_Antialiased": true,
+            "box_Anim": "speech bubble normal0",
+            "box_Open": "Speech Bubble Normal Open0"
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "madspurkshaggy",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "bf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "fine. You win for now. Again.",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            },
+            "box_FPS": 24,
+            "open_Box": true,
+            "box_Antialiased": true,
+            "box_Anim": "speech bubble normal0",
+            "box_Open": "Speech Bubble Normal Open0"
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spurkmattalt",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "bf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "...",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            },
+            "box_FPS": 24,
+            "open_Box": true,
+            "box_Antialiased": true,
+            "box_Anim": "speech bubble normal0",
+            "box_Open": "Speech Bubble Normal Open0"
+        },
+        {
+            "side": "right",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "madspurkshaggy",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "bf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "BAP BOP BEEP!!",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            }
+        },
+        {
+            "side": "right",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "nothing",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "nothing",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "font": "pixel.otf",
+                "text": "later that day...",
+                "sound": "cutscene/pixelText",
+                "color": "#000000",
+                "hasShadow": false,
+                "size": 24,
+                "box_Offset": [30,120],
+                "alphabet": false
+            }
+        }
+    ]
+}

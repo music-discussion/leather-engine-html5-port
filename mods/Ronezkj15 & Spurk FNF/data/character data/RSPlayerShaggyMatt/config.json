@@ -1,0 +1,25 @@
+{
+    "cameraOffset": [-40, -250],
+    "barColor": [209, 26, 26],
+    "characters": [
+        {
+            "name": "PHShaggy",
+            "positionOffset": [0,0]
+        },
+        {
+            "name": "PHMatt",
+            "positionOffset": [-225,0]
+        },        {
+            "name": "RonShaggy",
+            "positionOffset": [-450,50]
+        },
+        {
+            "name": "RonMatt",
+            "positionOffset": [-675,50]
+        },
+        {
+            "name": "gametoonsbf",
+            "positionOffset": [-900,50]
+        }
+    ]
+}

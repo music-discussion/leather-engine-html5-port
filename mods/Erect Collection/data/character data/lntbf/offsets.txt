@@ -1,0 +1,11 @@
+idle -5 -30
+singUP -29 -3
+singRIGHT -38 -37
+singLEFT 12 -36
+singDOWN -10 -60
+singUPmiss -29 27
+singRIGHTmiss -30 21
+singLEFTmiss 12 24
+singDOWNmiss -11 -19
+hey 7 4
+scared -4 0

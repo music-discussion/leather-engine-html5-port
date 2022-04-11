@@ -1,0 +1,54 @@
+{
+    "groupName": "R&S Minus World",
+    "pathName": "funny",
+    "weeks": [
+        {
+            "imagePath": "week -1",
+            "songs": [
+                "Fangirl Frenzy"
+            ],
+            "characters": [
+                "",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "What's gamebanana? I've never heard of that",
+            "backgroundColor":[249, 207, 81],
+            "difficulties": [
+                ["hard", "default/hard"]
+            ]
+        },
+        {
+            "imagePath": "week -2",
+            "songs": [
+                "The Propane Warrior"
+            ],
+            "characters": [
+                "",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "Context: Spurk's Mod & Ron's Mod",
+            "backgroundColor":[249, 207, 81],
+            "difficulties": [
+                ["hard", "default/hard"]
+            ]
+        },
+        {
+            "imagePath": "week -3",
+            "songs": [
+                "Mediocre"
+            ],
+            "characters": [
+                "",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "shaggy vs saggy",
+            "backgroundColor":[249, 207, 81],
+            "difficulties": [
+                ["hard", "default/hard"]
+            ]
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+bside final dest:shaggymattzardytricky:0:Hard,Godly:#007500
+bside god eater:bspshaggy:0:Hard:#4B3372
+bside astral calamity:bwbshaggy:0:Hard:#050565
+bside talladega:bszshaggy:0:New,Hard:#000035
+bside thunderstorm:BSNCShaggy:0:Hard:#750000

@@ -1,0 +1,66 @@
+{
+    "character_Positions":[
+        [1050, 850],
+        [450, 850],
+        [750, 750]
+    ],
+    "camera_Zoom": 0.9,
+    "objects": [
+        {
+            "position":[-300, 0],
+            "scroll_Factor": [0.5, 0.5],
+            "scale": 0.8,
+            "antialiased": true,
+            "file_Name": "stonebrickbg",
+            "is_Animated": false
+        },
+        {
+            "position":[-300, 0],
+            "scroll_Factor": [0.9, 0.9],
+            "scale": 0.8,
+            "antialiased": true,
+            "file_Name": "sandstoneplatform",
+            "is_Animated": false
+        },
+        {
+            "position":[-300, 0],
+            "scroll_Factor": [0.9, 0.9],
+            "scale": 0.8,
+            "antialiased": true,
+            "file_Name": "chairrightside",
+            "is_Animated": false
+        },
+        {
+            "position":[-300, 0],
+            "scroll_Factor": [0.9, 0.9],
+            "scale": 0.8,
+            "antialiased": true,
+            "file_Name": "chairmidsection",
+            "is_Animated": false
+        },
+        {
+            "position":[-300, 0],
+            "scroll_Factor": [0.9, 0.9],
+            "scale": 0.8,
+            "antialiased": true,
+            "file_Name": "chairbacksection",
+            "is_Animated": false
+        },
+        {
+            "position":[-300, 0],
+            "scroll_Factor": [0.9, 0.9],
+            "scale": 0.8,
+            "antialiased": true,
+            "file_Name": "chairleftside",
+            "is_Animated": false
+        },
+        {
+            "position":[-300, 0],
+            "scroll_Factor": [1, 1],
+            "scale": 0.8,
+            "antialiased": true,
+            "file_Name": "ppl",
+            "is_Animated": false
+        }
+    ]
+}

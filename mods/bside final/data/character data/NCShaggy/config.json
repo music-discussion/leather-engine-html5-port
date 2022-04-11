@@ -1,0 +1,38 @@
+{
+    "defaultFlipX": false,
+    "dancesLeftAndRight": false,
+    "imagePath": "noncanon_shaggy_bside",
+    "spritesheetType": "SPARROW",
+    "animations": [
+        {
+            "name": "idle",
+            "animation_name": "shaggy_idle",
+            "fps": 56,
+            "looped": false
+        },
+        {
+            "name": "singLEFT",
+            "animation_name": "shaggy_left",
+            "fps": 28,
+            "looped": false
+        },
+        {
+            "name": "singDOWN",
+            "animation_name": "shaggy_down",
+            "fps": 28,
+            "looped": false
+        },
+        {
+            "name": "singUP",
+            "animation_name": "shaggy_up",
+            "fps": 28,
+            "looped": false
+        },
+        {
+            "name": "singRIGHT",
+            "animation_name": "shaggy_right",
+            "fps": 28,
+            "looped": false
+        }
+    ]
+}

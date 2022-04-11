@@ -1,0 +1,8 @@
+<TextureAtlas imagePath="technoblade.png">
+    <SubTexture name="Technoblade Idle0000" x="941" y="752" width="859" height="756"/>
+    <SubTexture name="Technoblade Idle0001" x="941" y="0" width="894" height="751"/>
+    <SubTexture name="Technoblade Idle0002" x="0" y="1515" width="940" height="760"/>
+    <SubTexture name="Technoblade Idle0004" x="0" y="754" width="940" height="760"/>
+    <SubTexture name="Technoblade Idle0003" x="0" y="0" width="939" height="753"/>
+    <SubTexture name="Technoblade Idle0005" x="941" y="1515" width="894" height="751"/>
+</TextureAtlas>

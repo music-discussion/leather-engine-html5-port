@@ -1,0 +1,14 @@
+{
+    "cameraOffset": [-40, -250],
+    "barColor": [157, 80, 39],
+    "characters": [
+        {
+            "name": "sfgshaggy",
+            "positionOffset": [0,0]
+        },
+        {
+            "name": "lntbf",
+            "positionOffset": [-225,0]
+        }
+    ]
+}

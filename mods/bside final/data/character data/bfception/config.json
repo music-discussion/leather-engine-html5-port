@@ -1,0 +1,22 @@
+{
+    "cameraOffset": [-150, -200],
+    "barColor": [102, 255, 153],
+    "characters": [
+        {
+            "name": "bf",
+            "positionOffset": [0,20]
+        },
+        {
+            "name": "bsbf",
+            "positionOffset": [-200,20]
+        },
+        {
+            "name": "neobf",
+            "positionOffset": [-400,20]
+        }, 
+        {
+            "name": "gametoonsbf",
+            "positionOffset": [-600,20]
+        }
+    ]
+}

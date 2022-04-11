@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="testbool.png">
+		<SubTexture name="default0" x="0" y="0000" width="1" height="1"/>
+		<SubTexture name="true0" x="0" y="0000" width="23" height="7"/>
+		<SubTexture name="false0" x="0" y="7" width="26" height="7"/>
+</TextureAtlas>

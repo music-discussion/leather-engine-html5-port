@@ -1,0 +1,68 @@
+{
+    "defaultFlipX": false,
+    "dancesLeftAndRight": false,
+    "imagePath": "bside sky",
+    "spritesheetType": "SPARROW",
+    "animations": [
+        {
+            "name": "idle",
+            "animation_name": "sky annoyed idle",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singLEFT",
+            "animation_name": "sky annoyed left",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singDOWN",
+            "animation_name": "sky annoyed down",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singUP",
+            "animation_name": "sky annoyed up",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singRIGHT",
+            "animation_name": "sky annoyed right",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singLEFT-alt",
+            "animation_name": "sky annoyed alt left",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singDOWN-alt",
+            "animation_name": "sky annoyed alt down",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singUP-alt",
+            "animation_name": "sky annoyed alt up",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singRIGHT-alt",
+            "animation_name": "sky annoyed alt right",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "idle-alt",
+            "animation_name": "sky annoyed alt idle",
+            "fps": 24,
+            "looped": false
+        }
+    ]
+}

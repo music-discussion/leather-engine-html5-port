@@ -1,0 +1,6 @@
+<TextureAtlas imagePath="sun tzu.png">
+    <SubTexture name="Sun Tzu Idle0000" x="488" y="859" width="480" height="890"/>
+    <SubTexture name="Sun Tzu Idle0001" x="488" y="0" width="484" height="858"/>
+    <SubTexture name="Sun Tzu Idle0002" x="0" y="0" width="487" height="871"/>
+    <SubTexture name="Sun Tzu Idle0003" x="0" y="872" width="481" height="879"/>
+</TextureAtlas>

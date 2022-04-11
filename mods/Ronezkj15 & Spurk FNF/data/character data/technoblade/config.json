@@ -1,0 +1,42 @@
+{
+    "defaultFlipX": false,
+    "dancesLeftAndRight": false,
+    "imagePath": "Technoblade_Assets",
+    "spritesheetType": "SPARROW",
+    "graphicsSize": 1,
+    "positionOffset": [0, 0],
+    "cameraOffset": [0, 0],
+    "barColor": [255, 174, 185],
+    "animations": [
+        {
+            "name": "idle",
+            "animation_name": "Idle",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singLEFT",
+            "animation_name": "Sing Left",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singDOWN",
+            "animation_name": "Sing Down",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singUP",
+            "animation_name": "Sing Up",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singRIGHT",
+            "animation_name": "Sing Right",
+            "fps": 24,
+            "looped": false
+        }
+    ]
+}

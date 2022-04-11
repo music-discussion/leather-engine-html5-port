@@ -1,0 +1,43 @@
+{
+    "defaultFlipX": false,
+    "dancesLeftAndRight": false,
+    "imagePath": "bsidegodmatt",
+    "spritesheetType": "SPARROW",
+    "trail": true,
+    "trailLength": 30,
+    "trailDelay": 10,
+    "trailStalpha": 0.3,
+    "trailDiff": 0.069,
+    "animations": [
+        {
+            "name": "idle",
+            "animation_name": "matt idle",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singLEFT",
+            "animation_name": "matt left note",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singDOWN",
+            "animation_name": "matt down note",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singUP",
+            "animation_name": "matt up note",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singRIGHT",
+            "animation_name": "matt right note",
+            "fps": 24,
+            "looped": false
+        }
+    ]
+}

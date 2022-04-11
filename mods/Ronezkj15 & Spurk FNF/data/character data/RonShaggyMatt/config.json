@@ -1,0 +1,18 @@
+{
+    "cameraOffset": [-40, -250],
+    "barColor": [209, 26, 26],
+    "characters": [
+        {
+            "name": "RonShaggy",
+            "positionOffset": [0,0]
+        },
+        {
+            "name": "RonMatt",
+            "positionOffset": [-225,0]
+        },
+        {
+            "name": "RonMattStando",
+            "positionOffset": [1000,1000]
+        }
+    ]
+}

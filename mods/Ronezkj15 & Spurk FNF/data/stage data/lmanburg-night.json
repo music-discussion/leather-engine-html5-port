@@ -1,0 +1,50 @@
+{
+    "character_Positions":[
+        [1000, 850],
+        [400, 850],
+        [700, 750]
+    ],
+    "camera_Zoom": 0.9,
+    "objects": [
+        {
+            "position":[-300, -100],
+            "scroll_Factor": [0, 0],
+            "scale": 0.7,
+            "antialiased": true,
+            "file_Name": "sky-in-terms-of-atmosphere-sky-and-not-the-fangirl",
+            "is_Animated": false
+        },
+        {
+            "position":[-300, -100],
+            "scroll_Factor": [0, 0],
+            "scale": 0.7,
+            "antialiased": true,
+            "file_Name": "herecomesdasun",
+            "is_Animated": false
+        },
+        {
+            "position":[-300, -100],
+            "scroll_Factor": [0.25, 0.25],
+            "scale": 0.7,
+            "antialiased": true,
+            "file_Name": "whatever-the-heck-this-is-idk-the-dream-smp",
+            "is_Animated": false
+        },
+        {
+            "position":[-300, -100],
+            "scroll_Factor": [0.3, 0.3],
+            "scale": 0.7,
+            "antialiased": true,
+            "file_Name": "coolflagsarecool",
+            "is_Animated": false
+        },
+        {
+            "position":[-150, 600],
+            "scroll_Factor": [0.9, 0.9],
+            "scale": 1.1,
+            "antialiased": true,
+            "file_Name": "platform",
+            "is_Animated": false
+        }
+    ]
+}

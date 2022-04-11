@@ -1,0 +1,18 @@
+{
+    "cameraOffset": [-40, -250],
+    "barColor": [144, 26, 209],
+    "characters": [
+        {
+            "name": "BSNCShaggy",
+            "positionOffset": [0,0]
+        },
+        {
+            "name": "NCSpurkMatt",
+            "positionOffset": [-225,0]
+        },
+        {
+            "name": "NCSpurkMattStando",
+            "positionOffset": [1000,1000]
+        }
+    ]
+}

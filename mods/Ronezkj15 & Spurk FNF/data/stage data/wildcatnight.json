@@ -1,0 +1,139 @@
+{
+	"character_Positions": [
+		[
+			1008,
+			735
+		],
+		[
+			310,
+			733
+		],
+		[
+			750,
+			700
+		]
+	],
+	"objects": [
+		{
+			"is_Animated": false,
+			"position": [
+				-532,
+				-434
+			],
+			"scroll_Factor": [
+				0,
+				0
+			],
+			"antialiased": true,
+			"scale": 1.3,
+			"file_Name": "sky-but-again-not-in-terms-of-the-fangirl",
+			"alpha": 1
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				1548,
+				241
+			],
+			"scroll_Factor": [
+				0.2,
+				0.2
+			],
+			"antialiased": true,
+			"scale": 1,
+			"file_Name": "city",
+			"alpha": 1
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				1020,
+				286
+			],
+			"scroll_Factor": [
+				0.8,
+				0.8
+			],
+			"antialiased": true,
+			"scale": 1,
+			"file_Name": "road",
+			"alpha": 1
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				-747,
+				423
+			],
+			"scroll_Factor": [
+				0.6,
+				0.6
+			],
+			"antialiased": true,
+			"scale": 1,
+			"file_Name": "quote sand",
+			"alpha": 1
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				-750,
+				370
+			],
+			"scroll_Factor": [
+				0.8,
+				0.8
+			],
+			"antialiased": true,
+			"scale": 1,
+			"file_Name": "quote fences",
+			"alpha": 1
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				-300,
+				-195
+			],
+			"scroll_Factor": [
+				0.05,
+				0.05
+			],
+			"antialiased": true,
+			"scale": 0.75,
+			"file_Name": "moon",
+			"alpha": 1
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				-253,
+				-589
+			],
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"antialiased": true,
+			"scale": 1,
+			"file_Name": "building",
+			"alpha": 1
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				-1300,
+				650
+			],
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"antialiased": true,
+			"scale": 1.5,
+			"file_Name": "walkside",
+			"alpha": 1
+		}
+	],
+	"camera_Zoom": 0.6
+}

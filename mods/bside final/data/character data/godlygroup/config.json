@@ -1,0 +1,22 @@
+{
+    "cameraOffset": [-150, -200],
+    "barColor": [0, 125, 0],
+    "characters": [
+        {
+            "name": "bsidegodshag",
+            "positionOffset": [0,20]
+        },
+        {
+            "name": "bsidegodmatt",
+            "positionOffset": [-200,0]
+        },
+        {
+            "name": "bsidegodzardy",
+            "positionOffset": [-500,0]
+        }, 
+        {
+            "name": "bsidegodtricky",
+            "positionOffset": [-400,0]
+        }
+    ]
+}

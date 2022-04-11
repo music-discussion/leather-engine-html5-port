@@ -1,0 +1,14 @@
+{
+    "cameraOffset": [-40, -250],
+    "barColor": [255, 174, 185],
+    "characters": [
+        {
+            "name": "technoblade",
+            "positionOffset": [0,0]
+        },
+        {
+            "name": "HankHill",
+            "positionOffset": [-225,0]
+        }
+    ]
+}

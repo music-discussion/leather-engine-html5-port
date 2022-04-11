@@ -1,0 +1,76 @@
+{
+	"objects": [
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"position": [
+				-24,
+				-197
+			],
+			"file_Name": "floor",
+			"scale": 1.2
+		},
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"position": [
+				-24,
+				-192
+			],
+			"file_Name": "bg",
+			"scale": 1.2
+		},
+		{
+			"is_Animated": false,
+			"layer": "gf",
+			"antialiased": true,
+			"scroll_Factor": [
+				0.95,
+				0.95
+			],
+			"position": [
+				-36,
+				-199
+			],
+			"file_Name": "pillarbroke",
+			"scale": 1.2
+		},
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"position": [
+				-24,
+				-193
+			],
+			"file_Name": "pillars",
+			"scale": 1.2
+		}
+	],
+	"character_Positions": [
+		[
+			1446,
+			1656
+		],
+		[
+			664,
+			1601
+		],
+		[
+			1079,
+			1330
+		]
+	],
+	"camera_Zoom": 0.8
+}

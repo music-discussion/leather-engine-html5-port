@@ -1,0 +1,43 @@
+{
+    "defaultFlipX": false,
+    "dancesLeftAndRight": false,
+    "imagePath": "HankHill",
+    "spritesheetType": "SPARROW",
+    "antialiasing":false,
+    "graphicsSize": 1,
+    "positionOffset": [0, 0],
+    "cameraOffset": [0, 100],
+    "barColor": [191, 78, 0],
+    "animations": [
+        {
+            "name": "idle",
+            "animation_name": "Idle",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singLEFT",
+            "animation_name": "Left",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singDOWN",
+            "animation_name": "Down",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singUP",
+            "animation_name": "Up",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singRIGHT",
+            "animation_name": "Right",
+            "fps": 24,
+            "looped": false
+        }
+    ]
+}

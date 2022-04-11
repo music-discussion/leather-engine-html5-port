@@ -1,0 +1,58 @@
+{
+    "character_Positions":[
+        [1050, 850],
+        [450, 850],
+        [750, 750]
+    ],
+    "camera_Zoom": 0.9,
+    "objects": [
+        {
+            "position":[-300, -100],
+            "scroll_Factor": [0, 0],
+            "scale": 0.8,
+            "antialiased": true,
+            "file_Name": "background",
+            "is_Animated": false
+        },
+        {
+            "position":[-300, -100],
+            "scroll_Factor": [0.3, 0.3],
+            "scale": 0.8,
+            "antialiased": true,
+            "file_Name": "foreground5",
+            "is_Animated": false
+        },
+        {
+            "position":[-300, -100],
+            "scroll_Factor": [0.4, 0.4],
+            "scale": 0.8,
+            "antialiased": true,
+            "file_Name": "foreground4",
+            "is_Animated": false
+        },
+        {
+            "position":[-300, -100],
+            "scroll_Factor": [0.7, 0.7],
+            "scale": 0.8,
+            "antialiased": true,
+            "file_Name": "foreground3",
+            "is_Animated": false
+        },
+        {
+            "position":[-300, -100],
+            "scroll_Factor": [0.8, 0.8],
+            "scale": 0.8,
+            "antialiased": true,
+            "file_Name": "foreground2",
+            "is_Animated": false
+        },
+        {
+            "position":[-300, -100],
+            "scroll_Factor": [0.9, 0.9],
+            "scale": 0.8,
+            "antialiased": true,
+            "file_Name": "foreground1",
+            "is_Animated": false
+        }
+    ]
+}

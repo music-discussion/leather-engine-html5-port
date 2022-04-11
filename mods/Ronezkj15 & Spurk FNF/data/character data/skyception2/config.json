@@ -1,0 +1,30 @@
+{
+    "cameraOffset": [-150, -200],
+    "barColor": [102, 255, 153],
+    "characters": [
+        {
+            "name": "sky-annoyed",
+            "positionOffset": [0,20]
+        },
+        {
+            "name": "bside sky",
+            "positionOffset": [-200,40]
+        },
+        {
+            "name": "neo sky",
+            "positionOffset": [-400,60]
+        }, 
+        {
+            "name": "player sky",
+            "positionOffset": [-600,80]
+        },
+        {
+            "name": "fl sky",
+            "positionOffset": [-800,100]
+        },
+        {
+            "name": "ru sky",
+            "positionOffset": [-1000,120]
+        }
+    ]
+}

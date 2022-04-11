@@ -1,0 +1,43 @@
+{
+    "groupName": "Ronezkj15 & Spurk FNF",
+    "pathName": "funny",
+    "weeks": [
+        {
+            "imagePath": "week square",
+            "songs": [
+                "Doubled Power",
+                "Intervention",
+                "Space Breaker"
+            ],
+            "characters": [
+                "",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "Collab's going great",
+            "backgroundColor":[249, 207, 81],
+            "difficulties": [
+                ["hard", "default/hard"]
+            ]
+        },
+        {
+            "imagePath": "week square 2",
+            "songs": [
+                "Cosmic Preparations",
+                "Resurgence",
+                "The Odd One Out",
+                "Cosmic Confrontance"
+            ],
+            "characters": [
+                "",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "Collab's going great deluxe edition",
+            "backgroundColor":[249, 207, 81],
+            "difficulties": [
+                ["hard", "default/hard"]
+            ]
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "character_Positions":[
+        [1250, 800],
+        [300, 800],
+        [750, 700]
+    ],
+    "camera_Zoom": 0.6,
+    "objects": [
+        {
+            "position":[-550, -400],
+            "scroll_Factor": [0, 0],
+            "scale": 1,
+            "antialiased": true,
+            "file_Name": "boxingnight1",
+            "is_Animated": false
+        },
+        {
+            "position":[-750, -450],
+            "scroll_Factor": [0.2, 0.2],
+            "scale": 1.5,
+            "antialiased": true,
+            "file_Name": "boxingnight3",
+            "is_Animated": false
+        },
+        {
+            "position":[-750, 550],
+            "scroll_Factor": [1, 1],
+            "scale": 1.5,
+            "antialiased": true,
+            "file_Name": "boxingboulder",
+            "is_Animated": false
+        },
+        {
+            "position":[750, 450],
+            "scroll_Factor": [1, 1],
+            "scale": 2.5,
+            "antialiased": true,
+            "file_Name": "boxingboulder",
+            "is_Animated": false
+        }
+    ]
+}

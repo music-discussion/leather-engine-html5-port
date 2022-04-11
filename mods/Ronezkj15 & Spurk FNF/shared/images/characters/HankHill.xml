@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="HankHill.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Down0000" x="1" y="1151" width="317" height="582" frameX="-4" frameY="0" frameWidth="327" frameHeight="582"/>
+	<SubTexture name="Down0001" x="329" y="1" width="323" height="573" frameX="-3" frameY="-3" frameWidth="327" frameHeight="582"/>
+	<SubTexture name="Down0002" x="1" y="1" width="327" height="573" frameX="0" frameY="-3" frameWidth="327" frameHeight="582"/>
+	<SubTexture name="Idle0000" x="812" y="1193" width="187" height="583" frameX="0" frameY="-15" frameWidth="187" frameHeight="598"/>
+	<SubTexture name="Idle0001" x="624" y="1183" width="187" height="591" frameX="0" frameY="-7" frameWidth="187" frameHeight="598"/>
+	<SubTexture name="Idle0002" x="1197" y="1" width="187" height="598"/>
+	<SubTexture name="Left0000" x="319" y="1154" width="304" height="583" frameX="-2" frameY="0" frameWidth="323" frameHeight="583"/>
+	<SubTexture name="Left0001" x="324" y="575" width="313" height="578" frameX="0" frameY="-2" frameWidth="323" frameHeight="583"/>
+	<SubTexture name="Left0002" x="1" y="575" width="322" height="575" frameX="-1" frameY="-3" frameWidth="323" frameHeight="583"/>
+	<SubTexture name="Right0000" x="638" y="588" width="264" height="594" frameX="0" frameY="0" frameWidth="274" frameHeight="594"/>
+	<SubTexture name="Right0001" x="928" y="1" width="268" height="591" frameX="0" frameY="-1" frameWidth="274" frameHeight="594"/>
+	<SubTexture name="Right0002" x="653" y="1" width="274" height="586" frameX="0" frameY="-3" frameWidth="274" frameHeight="594"/>
+	<SubTexture name="Up0000" x="903" y="593" width="185" height="599"/>
+	<SubTexture name="Up0001" x="1000" y="1193" width="182" height="594" frameX="-1" frameY="-2" frameWidth="185" frameHeight="599"/>
+	<SubTexture name="Up0002" x="1089" y="600" width="182" height="591" frameX="-1" frameY="-4" frameWidth="185" frameHeight="599"/>
+</TextureAtlas>

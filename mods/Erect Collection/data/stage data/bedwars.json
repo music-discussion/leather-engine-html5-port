@@ -1,0 +1,134 @@
+{
+    "character_Positions":[
+        [1400, 750],
+        [650, 675],
+        [1000, 625]
+    ],
+    "camera_Zoom": 0.8,
+    "objects": [
+        {
+            "position":[-200, -150],
+            "scroll_Factor": [0, 0],
+            "antialiased": true,
+            "uses_Frame_Width": true,
+            "scale": 1.5,
+            "file_Name": "Bedwars_Area_Assets",
+            "is_Animated": true,
+            "animations": [
+                {
+                    "name": "sky",
+                    "animation_name": "Sky",
+                    "fps": 1,
+                    "looped": true
+                }
+            ],
+            "start_Animation": "sky"
+        },
+        {
+            "position":[-200, -230],
+            "scroll_Factor": [0.3, 0.3],
+            "antialiased": true,
+            "file_Name": "Bedwars_Area_Assets",
+            "is_Animated": true,
+            "animations": [
+                {
+                    "name": "sun",
+                    "animation_name": "Full Sun",
+                    "fps": 1,
+                    "looped": true
+                }
+            ],
+            "start_Animation": "sun"
+        },
+        {
+            "position":[1400, 200],
+            "scroll_Factor": [1.0, 1.0],
+            "antialiased": true,
+            "file_Name": "Bedwars_Area_Assets",
+            "uses_Frame_Width": true,
+            "scale": 1.5,
+            "is_Animated": true,
+            "animations": [
+                {
+                    "name": "path",
+                    "animation_name": "Yellow Path Away",
+                    "fps": 1,
+                    "looped": true
+                }
+            ],
+            "start_Animation": "path"
+        },
+        {
+            "position":[1250, 130],
+            "scroll_Factor": [1.0, 1.0],
+            "antialiased": true,
+            "file_Name": "Bedwars_Area_Assets",
+            "uses_Frame_Width": true,
+            "scale": 1.2,
+            "is_Animated": true,
+            "animations": [
+                {
+                    "name": "island",
+                    "animation_name": "Yellow Island",
+                    "fps": 1,
+                    "looped": true
+                }
+            ],
+            "start_Animation": "island"
+        },
+        {
+            "position":[1000, 250],
+            "scroll_Factor": [1.0, 1.0],
+            "antialiased": true,
+            "file_Name": "Bedwars_Area_Assets",
+            "uses_Frame_Width": true,
+            "scale": 1.2,
+            "is_Animated": true,
+            "animations": [
+                {
+                    "name": "path",
+                    "animation_name": "Yellow Path Close",
+                    "fps": 1,
+                    "looped": true
+                }
+            ],
+            "start_Animation": "path"
+        },
+        {
+            "position":[-673, 501],
+            "scroll_Factor": [1.0, 1.0],
+            "antialiased": true,
+            "file_Name": "Bedwars_Area_Assets",
+            "uses_Frame_Width": true,
+            "scale": 1.2,
+            "is_Animated": true,
+            "animations": [
+                {
+                    "name": "ground",
+                    "animation_name": "Full Ground",
+                    "fps": 1,
+                    "looped": true
+                }
+            ],
+            "start_Animation": "ground"
+        },
+        {
+            "position":[130, 182],
+            "scroll_Factor": [1.0, 1.0],
+            "antialiased": true,
+            "file_Name": "Bedwars_Area_Assets",
+            "uses_Frame_Width": true,
+            "scale": 1.2,
+            "is_Animated": true,
+            "animations": [
+                {
+                    "name": "block",
+                    "animation_name": "Floating Diamond Block",
+                    "fps": 24,
+                    "looped": true
+                }
+            ],
+            "start_Animation": "block"
+        }
+    ]
+}
