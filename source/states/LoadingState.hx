@@ -28,18 +28,17 @@ class LoadingState extends MusicBeatState
 	var danceLeft = false;
 
 	//var target:FlxState;
-	var stopMusic = false;
 	var directory:String;
-	var callbacks:MultiCallback;
 	var targetShit:Float = 0;
 
 	public static var instance:LoadingState = null;
 	
-	function new(target:FlxState, stopMusic:Bool)
+	function new(target:FlxState, stopMusic:Bool, directory:String)
 	{
 		super();
 		this.target = target;
 		this.stopMusic = stopMusic;
+		this.directory = directory;
 	}
 	
 	override function create()
@@ -170,6 +169,7 @@ class LoadingState extends MusicBeatState
 	
 	static function getNextState(target:FlxState, stopMusic = false):FlxState
 	{
+		var directory:String = "week" + PlayState.storyWeek;
 		Paths.setCurrentLevel("week" + PlayState.storyWeek);
 		#if NO_PRELOAD_ALL
 		var loaded = isSoundLoaded(getSongPath())
@@ -177,7 +177,7 @@ class LoadingState extends MusicBeatState
 			&& isLibraryLoaded("shared");
 		
 		if (!loaded)
-			return new LoadingState(target, stopMusic);
+			return new LoadingState(target, stopMusic, directory);
 		#end
 		if (stopMusic && FlxG.sound.music != null)
 			FlxG.sound.music.stop();

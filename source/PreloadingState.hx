@@ -1,4 +1,4 @@
-package states;
+package;
 
 import lime.app.Promise;
 import lime.app.Future;
@@ -17,6 +17,14 @@ import lime.utils.AssetManifest;
 import haxe.io.Path;
 
 import utilities.Options;
+import states.MusicBeatState;
+import utilities.SaveData;
+import utilities.MusicUtilities;
+import utilities.CoolUtil;
+import states.LoadingState;
+import states.PlayState;
+import game.StageGroup;
+//import sys.FileSystem;
 
 class PreloadingState extends MusicBeatState
 {
@@ -33,13 +41,13 @@ class PreloadingState extends MusicBeatState
 	var callbacks:MultiCallback;
 	var targetShit:Float = 0;
 
-	function new(target:FlxState, stopMusic:Bool, directory:String)
+	/*function new(target:FlxState, stopMusic:Bool, directory:String)
 	{
 		super();
 		this.target = target;
 		this.stopMusic = stopMusic;
 		this.directory = directory;
-	}
+	}*/
 
 	var funkay:FlxSprite;
 	var loadBar:FlxSprite;
@@ -77,14 +85,15 @@ class PreloadingState extends MusicBeatState
 
                     if (song != null) {
                         checkLoadSong(getSongPath(song));
-                        if (FileSystem.exists("assets/songs/" + song.toLowerCase() + "/Voices.ogg"))
+                        if (checkLoadSong(getVocalPath(song)) != null)
                             checkLoadSong(getVocalPath(song));
                     }
                 }
 
-				loadFile("assets/shared/images/ui skins/default/arrows/default.png");
-				loadFile("assets/shared/images/ui skins/default/arrows/default.xml");
+				//loadFile("assets/shared/images/ui skins/default/arrows/default.png");
+				//loadFile("assets/shared/images/ui skins/default/arrows/default.xml");
 				checkLibrary("mods");
+				checkLibrary("shared");
 				if(directory != null && directory.length > 0 && directory != 'shared') {
 					checkLibrary(directory);
 				}
@@ -111,15 +120,15 @@ class PreloadingState extends MusicBeatState
 		}
 	}
 
-    function loadFile(file:String) //used to load singular files. quick for specific files
+   /* function loadFile(file:String) //used to load singular files. quick for specific files
     {
-        if (FileSystem.exists(file) && !Assets.cache.hasFile(file))
+        if (Assets.getFile(file) != null && !Assets.cache.hasFile(file))
         {
             var nfile = Assets.getFile(file);
 			var callback = callbacks.add("file:" + file);
 			Assets.loadFile(path).onComplete(function (_) { callback(); });
         }
-    }
+    }*/
 	
 	function checkLibrary(library:String) {
 		trace(Assets.hasLibrary(library));
@@ -156,7 +165,7 @@ class PreloadingState extends MusicBeatState
 		if (stopMusic && FlxG.sound.music != null)
 			FlxG.sound.music.stop();
 		
-		MusicBeatState.switchState(target);
+		FlxG.switchState(target);
 	}
 	
 	static function getSongPath(song:String)
@@ -171,14 +180,13 @@ class PreloadingState extends MusicBeatState
 	
 	inline static public function loadAndSwitchState(target:FlxState, stopMusic = false)
 	{
-		MusicBeatState.switchState(getNextState(target, stopMusic));
+		FlxG.switchState(getNextState(target, stopMusic));
 	}
 	
 	static function getNextState(target:FlxState, stopMusic = false):FlxState
 	{
-		/*var directory:String = 'shared';
-		var weekDir:String = StageData.forceNextDirectory;
-		StageData.forceNextDirectory = null;
+		var directory:String = 'shared';
+		var weekDir:String = "mods";
 
 		if(weekDir != null && weekDir.length > 0 && weekDir != '') directory = weekDir;
 
@@ -187,17 +195,36 @@ class PreloadingState extends MusicBeatState
 
 		#if NO_PRELOAD_ALL
 		var loaded:Bool = false;
-		if (PlayState.SONG != null) {
-			loaded = isSoundLoaded(getSongPath()) && (!PlayState.SONG.needsVoices || isSoundLoaded(getVocalPath())) && isLibraryLoaded("shared") && isLibraryLoaded(directory);
-		}
+		var initSonglist = CoolUtil.coolTextFile(Paths.txt('freeplaySonglist'));
+		var songLoaded:Array<Bool> = [];
+        for (i in 0...initSonglist.length)
+        {
+        	var listArray = initSonglist[i].split(":");
+            var song = listArray[0];
+
+            if (song != null) 
+			{
+				songLoaded.push(true);
+                checkLoadSong(getSongPath(song));
+                if (checkLoadSong(getVocalPath(song)) != null)
+                	checkLoadSong(getVocalPath(song));
+            } else {songLoaded.push(false);}
+        }
+
+		var isLoaded:Int = 0;
+		var songLength = songLoaded.length;
+		for (i in songLoaded) { if(i == true) isLoaded++;}
+		trace(isLoaded);
+		trace(songLength);
+		loaded = if(isLoaded >= songLength) true; else false;
 		
 		if (!loaded)
 			return new LoadingState(target, stopMusic, directory);
 		#end
 		if (stopMusic && FlxG.sound.music != null)
-			FlxG.sound.music.stop();*/
+			FlxG.sound.music.stop();
 		
-		return new MainMenuState();
+		return target;
 	}
 	
 	#if NO_PRELOAD_ALL
