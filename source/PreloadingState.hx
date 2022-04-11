@@ -51,9 +51,11 @@ class PreloadingState extends MusicBeatState
 
 	var funkay:FlxSprite;
 	var loadBar:FlxSprite;
+	public static var instance:PreloadingState = null;
 
 	override function create()
 	{
+		instance = this;
 		var bg:FlxSprite = new FlxSprite(0, 0).makeGraphic(FlxG.width, FlxG.height, 0xffcaff4d);
 		add(bg);
 		funkay = new FlxSprite(0, 0).loadGraphic(Paths.getPath('images/ontop.png', IMAGE));
@@ -130,7 +132,7 @@ class PreloadingState extends MusicBeatState
         }
     }*/
 	
-	function checkLibrary(library:String) {
+	public function checkLibrary(library:String) {
 		trace(Assets.hasLibrary(library));
 		if (Assets.getLibrary(library) == null)
 		{
@@ -219,7 +221,7 @@ class PreloadingState extends MusicBeatState
 		loaded = if(isLoaded >= songLength) true; else false;
 		
 		if (!loaded)
-			return new LoadingState(target, stopMusic, directory);
+			return new PreloadingState(target, stopMusic, directory);
 		#end
 		if (stopMusic && FlxG.sound.music != null)
 			FlxG.sound.music.stop();
@@ -246,7 +248,7 @@ class PreloadingState extends MusicBeatState
 		callbacks = null;
 	}
 	
-	static function initSongsManifest()
+	function initSongsManifest()
 	{
 		var id = "songs";
 		var promise = new Promise<AssetLibrary>();
